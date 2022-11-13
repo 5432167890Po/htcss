@@ -1,0 +1,159 @@
+body{
+  background-color: #f1f1f1;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: sans-serif;
+
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.pr{
+  width: 500px;
+  border-radius: 40px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info-text{
+  margin-left: 40px;
+}
+.info-text h3 {
+margin-bottom: 20px;
+padding-top: 10px;
+}
+
+.info{
+display: flex;
+  margin-bottom: 20px;
+}
+@media (max-width) {
+
+}
+.info p {
+
+  color: #86898f;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  word-spacing: normal;
+}
+.containeri{
+max-width:500px;
+margin: auto;
+}
+.social{
+  background:	lightpink ;
+border: dotted black;
+}
+.bg-teal{
+  background: teal;
+}
+.bg-bisque{
+  background: bisque;
+}
+.bg-red{
+  background: LightCoral;
+}
+.card{
+  padding:  10px 20px;
+  margin-bottom: 5px;
+  border-radius: 6%;
+  margin: auto;
+}
+.card  {
+  margin-bottom: 10px;
+
+}
+.card h2{
+  text-align: center;
+}
+.list{
+  padding: 0 20px;
+}
+.list li:nth-child(1) {
+  color: black ;
+  margin-bottom: 10px
+
+}
+.table{
+  width: 100%;
+
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-last-child(2){
+  color: #86898f;
+}
+.link-list{
+  list-style: none;
+  padding: 0;
+}
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px
+  border-bottom: 1px solid #ccc;
+}
+.form-group label {
+  display: block;
+  font-size: 14px
+  color #86898f
+}
+.form-group input ,
+.form-group textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+
+}
+.row >.form-group {
+  width: 50%;
+    margin-right: 20px;
+}
+.row >.form-group:last-child{
+margin-right: 0;
+}
+.btn{
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border:none
+  font-family: inherit;
+  cursor: pointer;
+
+}
+.btn:hover{
+  opacity: 0.9;
+
+}
+/*.position{
+
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+.box{
+  position: fixed;
+top: 0;
+/*  bottom: 50px;*/
+/*  left:0px;*/
+  /*width: 50%;
+
+  height: 50px;
+  background: LightCoral;
+}
+*/
